@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Anny Johnson",
+      "middleName": "Emma",
+      "job": "doctor",
+      "age": 21
+    },
+    {
+      "name": "David Johnson",
+      "middleName": "Isabella",
+      "job": "teacher",
+      "age": 32
+    },
+    {
+      "name": "Michael Johnson",
+      "middleName": "Harper",
+      "job": "doctor",
+      "age": 37
+    },
+    {
+      "name": "Paul Johnson",
+      "middleName": "Emily",
+      "job": "doctor",
+      "age": 15
+    },
+    {
+      "name": "Steve Sandson",
+      "middleName": "Superman",
+      "job": "driver",
+      "age": 12
+    },
+    {
+      "name": "Fred K.O.",
+      "middleName": "Spiderman",
+      "job": "developer",
+      "age": 20
+    },
+    {
+      "name": "Tom",
+      "middleName": "Superman",
+      "job": "doctor",
+      "age": 12
+    },
+    {
+      "name": "Paul K.O.",
+      "middleName": "Alpiderman",
+      "job": "developer",
+      "age": 20
+    }
+  ]
