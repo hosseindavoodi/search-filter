@@ -1,3 +1,6 @@
+import { useState } from "react"
+import Header from "@/components/header"
+import DataRender from "@/components/dataRender"
 
 const data = [
   {
@@ -40,30 +43,12 @@ const data = [
 
 
 export default function Home() {
+const [search, setSearch] = useState('')
+
   return (
     <div className="p-4">
-      <div className="flex w-full bg-slate-300 p-3 h-16 mb-8">
-         <input placeholder="search" className="h-10 w-1/4 p-1" />
-         <div className="ml-4" >
-           <input type="checkbox" />
-           <label>under 21 age</label>
-         </div>
-         <div className="ml-4" >
-           <input type="checkbox" />
-           <label>doctor</label>
-         </div>
-      </div>
-        {
-          data.map((items, i) =>(
-            <div key={i} className='flex'>
-              <div className='w-1/12 mb-2'>{i + 1} - </div>   
-              <div className='w-1/5 mb-2'>{items.name}</div>
-              <div className='w-1/5 mb-2'>{items.middleName}</div>
-              <div className='w-1/5 mb-2'>{items.job}</div>
-              <div className='w-1/5'>{items.age}</div>
-            </div>
-          ))
-        }
+      <Header setSearch={setSearch} />
+      <DataRender data={data} search={search} />
     </div>
   )
 }
